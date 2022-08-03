@@ -32,6 +32,7 @@ namespace API
             {
                 options.UseSqlite(_config.GetConnectionString("DefaultConnection"));
             });
+            
             services.AddControllers();
             services.AddSwaggerGen(c =>
             {
