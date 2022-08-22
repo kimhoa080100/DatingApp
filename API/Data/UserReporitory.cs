@@ -11,12 +11,12 @@ using Microsoft.EntityFrameworkCore;
 
 namespace API.Data
 {
-    public class UserResporitory : IUserRespository
+    public class UserReporitory : IUserRepository
     {
         private readonly DataContext _context;
         private readonly IMapper _mapper;
 
-        public UserResporitory(DataContext  context, IMapper mapper)
+        public UserReporitory(DataContext  context, IMapper mapper)
         {
             _context = context;
             _mapper = mapper;

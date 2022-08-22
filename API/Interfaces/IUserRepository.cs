@@ -7,7 +7,7 @@ using API.Entities;
 
 namespace API.Interfaces
 {
-    public interface IUserRespository
+    public interface IUserRepository
     {
         void Update(AppUser user);
         Task<bool> SaveAllAsync();

@@ -4353,6 +4353,13 @@ ngx-bootstrap@^9.0.0:
   dependencies:
     tslib "^2.3.0"
 
+ngx-spinner@^14.0.0:
+  version "14.0.0"
+  resolved "https://registry.yarnpkg.com/ngx-spinner/-/ngx-spinner-14.0.0.tgz#395c41be9bc5415f910cbe66aaa6995f0d5ab3b2"
+  integrity sha512-rz7wRCW4L+eZStpWwKUZ8mW+1WWtVEs1DZLDT1DUx1v3k+pLh5BhoDzfF1YySxTqZX13I7pwl13urqzniQ/jXQ==
+  dependencies:
+    tslib "^2.3.0"
+
 ngx-toastr@^15.0.0:
   version "15.0.0"
   resolved "https://registry.yarnpkg.com/ngx-toastr/-/ngx-toastr-15.0.0.tgz#7d9d664a264b8b39d1bf762bb0a124bde5be8f01"
