@@ -9,7 +9,7 @@ using API.Entities;
 using API.Interfaces;
 using Microsoft.IdentityModel.Tokens;
 
-namespace API.Service
+namespace API.Services
 {
     public class TokenService : ITokenService
     {
